@@ -1,5 +1,5 @@
 ---
-description: Docker overview
+description: 预计阅读时间：10分钟
 ---
 
 # Docker 概述
@@ -20,13 +20,21 @@ Docker提供了工具和平台来管理容器的生命周期：
 
 Docker引擎是基于C/S架构的应用程序，主要包括以下组件：
 
-* 一个常驻运行的服务端程序，我们称为守护进程（daemon）。
+* 一个常驻运行的服务端程序，我们称为守护进程（daemon/`dockerd` command）。
 * REST API，它指定程序可以用来与守护进程进行通信并指示其操作的接口。
 * 命令行界面（CLI）客户端（docker命令）。
 
+![](.gitbook/assets/engine-components-flow.png)
 
+CLI使用Docker REST API与Docker守护程序进行交互。许多其他Docker应用程序都使用基础API和CLI。
 
+守护程序创建和管理Docker对象，例如镜像，容器，网络和卷。
 
+{% hint style="info" %}
+Docker已经基于Apache 2.0许可开放源代码。
+{% endhint %}
+
+有关更多详细信息，请参阅下面的Docker架构。
 
 
 
