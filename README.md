@@ -2,5 +2,7 @@
 
 ### Docker中文文档
 
-## [MrPei's Blog](https://www.mrpei.cn)
+作者：[MrPei](https://github.com/peizhouyu)
+
+[MrPei's Blog](https://www.mrpei.cn)
 
