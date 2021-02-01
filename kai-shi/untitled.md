@@ -40,7 +40,7 @@ docker run -dp 80:80 docker/getting-started
 
 要访问仪表板，请按照Mac或Windows上的说明进行操作。如果现在打开仪表盘，您将看到本教程正在运行！容器名称（以下为jolly\_bouman）是随机创建的名称。因此，您很可能会使用其他名称。
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 ### 什么是容器？
 
