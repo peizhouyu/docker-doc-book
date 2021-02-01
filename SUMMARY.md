@@ -8,9 +8,5 @@
 
 * [开始](get-start/kai-shi/README.md)
   * [开始](get-start/kai-shi/untitled.md)
-  * [Untitled](get-start/kai-shi/untitled-1.md)
-
----
-
-* [Untitled](untitled-1.md)
+  * [我们的应用程序](get-start/kai-shi/untitled-1.md)
 
