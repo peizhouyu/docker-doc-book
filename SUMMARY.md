@@ -7,10 +7,6 @@
 ## 开始 <a id="get-start"></a>
 
 * [开始](get-start/kai-shi/README.md)
-  * [Untitled](get-start/kai-shi/untitled-1.md)
   * [开始](get-start/kai-shi/untitled.md)
-
----
-
-* [Untitled](untitled-1.md)
+  * [Untitled](get-start/kai-shi/untitled-1.md)
 
