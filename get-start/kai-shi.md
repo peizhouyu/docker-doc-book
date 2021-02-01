@@ -10,7 +10,7 @@ description: 预计阅读时间：3分钟
 
 如果您正在寻找有关如何使用自己喜欢的语言对应用程序进行容器化的信息，请参阅特定于语言的入门指南。
 
-### Start the tutorial <a id="start-the-tutorial"></a>
+### 开始教程 <a id="start-the-tutorial"></a>
 
 打开命令提示符或bash窗口，然后运行以下命令（确保docker daemon已经运行，对于Centos通常可以通过 systemctl start docker 来启动 ）：
 
