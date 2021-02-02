@@ -8,4 +8,5 @@
   * [我们的应用程序](get-started/our-application.md)
   * [更新我们的应用程序](get-started/updating-our-application.md)
   * [分享我们的应用程序](get-started/sharing-our-application.md)
+* [Language-specific guides \(New\)](language-specific-guides-new.md)
 
