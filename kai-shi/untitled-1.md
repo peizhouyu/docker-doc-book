@@ -35,7 +35,13 @@ FROM node:12-alpine
 
 请检查文件Dockerfile是否没有文件扩展名，如.txt。一些编辑器可能会自动附加此文件扩展名，这将在下一步导致错误。
 
-2.如果您尚未这样做，请打开一个终端，然后使用Dockerfile转到app目录。现在使用docker build命令构建容器映像。
+2.如果您尚未这样做，请打开一个终端，然后使用Dockerfile转到app目录。现在使用docker build命令构建容器镜像。
+
+```text
+ docker build -t getting-started .
+```
+
+此命令使用Dockerfile构建新的容器镜像。您可能已经注意到下载了许多“图层”（layers）。这是因为我们构建程序要从node:12-alpine镜像开始（以node:12-alpine为基础镜像）。但是由于我们机器上没有该镜像，因此需要下载该镜像。
 
 
 
