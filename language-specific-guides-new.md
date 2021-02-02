@@ -1,2 +1,2 @@
-# Language-specific guides \(New\)
+# 特定语言的指南（新）
 
