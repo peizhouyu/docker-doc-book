@@ -6,4 +6,5 @@
 * [开始](kai-shi/README.md)
   * [开始](kai-shi/untitled.md)
   * [我们的应用程序](kai-shi/untitled-1.md)
+  * [更新我们的应用程序](kai-shi/updating-our-application.md)
 
