@@ -1,2 +1,71 @@
+---
+description: 预计阅读时间：3分钟
+---
+
 # 更新我们的应用程序
+
+作为一项小需求，产品团队已要求我们在没有待办事项列表项时更改“空白文本”。他们想将其转换为以下内容：
+
+{% hint style="info" %}
+You have no todo items yet! Add one above!
+{% endhint %}
+
+很简单，对吧？让我们进行更改。
+
+### 更新我们的源代码
+
+1.在`src/static/js/app.js`文件中，更新第56行以使用新的空文本。
+
+```text
+- <p className="text-center">No items yet! Add one above!</p>
++ <p className="text-center">You have no todo items yet! Add one above!</p>
+```
+
+2.让我们使用之前使用的相同命令构建一个新版本的镜像。
+
+```text
+docker build -t getting-started . 
+```
+
+3.让我们使用更新后的代码启动一个新容器。
+
+```text
+docker run -dp 3000:3000 getting-started 
+```
+
+哦！您可能会看到这样的错误（ID将有所不同）：
+
+```text
+docker: Error response from daemon: driver failed programming external connectivity on endpoint laughing_burnell 
+(bb242b2ca4d67eba76e79474fb36bb5125708ebdabd7f45c8eaf16caaabde9dd): Bind for 0.0.0.0:3000 failed: port is already allocated.
+```
+
+所以发生了什么事？我们无法启动新容器，因为旧容器仍在运行。之所以出现此问题，是因为该容器正在使用主机的端口3000，并且计算机上只有一个进程（包括容器）可以侦听特定的端口。要解决此问题，我们需要删除旧的容器。
+
+### 更新我们的旧容器
+
+要卸载容器，首先需要将其停止。一旦停止，就可以将其删除。我们有两种方法可以删除旧容器。随意选择最适合自己的方式。
+
+#### 使用CLI删除容器
+
+1.使用`docker ps`命令获取容器的ID。
+
+```text
+docker ps
+```
+
+2.使用`docker stop`命令停止容器。
+
+```text
+# Swap out <the-container-id> with the ID from docker ps
+ docker stop <the-container-id>
+```
+
+3.容器停止后，您可以使用`docker rm`命令将其删除。
+
+```text
+docker rm <the-container-id>
+```
+
+
 
