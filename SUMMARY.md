@@ -4,7 +4,7 @@
 * [Docker 概述](docker-overview.md)
 * [获取 Docker](get-docker.md)
 * [开始](get-started/README.md)
-  * [开始](get-started/untitled.md)
+  * [开始](get-started/getting-started.md)
   * [我们的应用程序](get-started/our-application.md)
   * [更新我们的应用程序](get-started/updating-our-application.md)
 
