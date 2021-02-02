@@ -63,7 +63,7 @@ docker run -dp 3000:3000 getting-started
 
 2.几秒钟后，打开Web浏览器到http://localhost:3000。您应该看到我们的应用程序！
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 3.继续添加一个或两个项目，然后看它能按预期工作。您可以将项目标记为已完成并删除项目。您的前端已成功在后端存储项目！非常简单快捷，不是吗？
 
@@ -71,7 +71,7 @@ docker run -dp 3000:3000 getting-started
 
 如果快速浏览Docker Dashboard，您应该会看到两个容器正在运行（本教程和您刚启动的应用容器）！
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 ### 概括
 
