@@ -44,7 +44,7 @@ docker: Error response from daemon: driver failed programming external connectiv
 
 ### 更新我们的旧容器
 
-要卸载容器，首先需要将其停止。一旦停止，就可以将其删除。我们有两种方法可以删除旧容器。随意选择最适合自己的方式。
+要移除容器，首先需要将其停止。一旦停止，就可以将其删除。我们有两种方法可以删除旧容器。随意选择最适合自己的方式。
 
 #### 使用CLI删除容器
 
@@ -67,5 +67,15 @@ docker ps
 docker rm <the-container-id>
 ```
 
+{% hint style="info" %}
+提示：
 
+您可以通过在docker rm命令中添加“ force”参数来在单个命令中停止和删除容器。例如：
+
+`docker rm -f <the-container-id>`
+{% endhint %}
+
+#### 使用Docker Dashboard移除容器
+
+如果打开Docker仪表板，则可以单击两次删除容器！肯定比查找容器ID并将其删除要容易得多。
 
