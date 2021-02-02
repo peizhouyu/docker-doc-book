@@ -3,8 +3,8 @@
 * [本书说明](README.md)
 * [Docker 概述](docker-overview.md)
 * [获取 Docker](get-docker.md)
-* [开始](kai-shi/README.md)
-  * [开始](kai-shi/untitled.md)
-  * [我们的应用程序](kai-shi/untitled-1.md)
-  * [更新我们的应用程序](kai-shi/updating-our-application.md)
+* [开始](get-started/README.md)
+  * [开始](get-started/untitled.md)
+  * [我们的应用程序](get-started/untitled-1.md)
+  * [更新我们的应用程序](get-started/updating-our-application.md)
 
